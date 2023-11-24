@@ -1,0 +1,530 @@
+
+
+.button,
+button {
+  display: inline-block;
+  text-decoration: none;
+  height: 48px;
+  padding: 0 16px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  width: 300px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  box-sizing: border-box; }
+button:hover,
+.button:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary {
+  color: #FFF;
+  filter: brightness(90%) }
+.button.button-primary:hover,
+.button.button-primary:focus {
+  color: #FFF;
+  filter: brightness(90%) }
+
+
+/* Brand Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.icon {
+  padding: 0px 8px 3.2px 0px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-no-pad {
+  padding: 0px 0px 0px 0px;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+}
+
+.icon-right-pad {
+  padding: 0px 12px 2px 0px;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+}
+
+.icon-larger {
+  padding: 0px 0px 6px 0px;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+}
+
+
+
+/* Brand Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Portfolio - Cottle */
+.button.button-cottle {
+  color: #FFFFFF;
+  background-color: #2746DE }
+.button.button-cottle:hover,
+.button.button-cottle:focus {
+  filter: brightness(90%) }
+
+/* Brand */
+.button.button-blank {
+  color: #000000;
+  background-color: #A0A0A0 }
+.button.button-blank:hover,
+.button.button-blank:focus {
+  filter: brightness(90%) }
+
+/* Designly */
+.button.button-designly {
+  color: #0B474B;
+  background-color: #DCEAEB }
+.button.button-designly:hover,
+.button.button-designly:focus {
+  filter: brightness(90%) }
+
+/* Discord */
+.button.button-discord {
+  color: #FFFFFF;
+  background-color: #5865F2 }
+.button.button-discord:hover,
+.button.button-discord:focus {
+  filter: brightness(90%) }
+
+/* Facebook */
+.button.button-facebook {
+  color: #FFFFFF;
+  background-color: #1877f2 }
+.button.button-facebook:hover,
+.button.button-facebook:focus {
+  filter: brightness(90%) }
+
+/* Facebook Messenger */
+.button.button-messenger {
+  color: #000000;
+  background-color: #FFFFFF }
+.button.button-messenger:hover,
+.button.button-messenger:focus {
+  filter: brightness(90%) }
+
+/* Figma */
+.button.button-figma {
+  color: #FFFFFF;
+  background-color: #131313 }
+.button.button-figma:hover,
+.button.button-figma:focus {
+  filter: brightness(90%) }
+
+/* Github */
+.button.button-znakomstva {
+  color: #FFFFFF;
+  background-color: #002963 }
+.button.button-znakomstva:hover,
+.button.button-znakomstva:focus {
+  filter: brightness(90%) }
+
+/* Instagram */
+.button.button-instagram {
+  color: #FFFFFF;
+  background-image: linear-gradient(-135deg,#1400c8,#b900b4,#f50000) }
+.button.button-instagram:hover,
+.button.button-instagram:focus {
+  filter: brightness(90%) }
+
+/* Kit */
+.button.button-kit {
+  color: #000000;
+  background-color: #10c694 }
+.button.button-kit:hover,
+.button.button-kit:focus {
+  filter: brightness(90%) }
+
+/* LinkedIn */
+.button.button-linkedin {
+  color: #FFFFFF;
+  background-color: #0A66C2 }
+.button.button-linkedin:hover,
+.button.button-linkedin:focus {
+  filter: brightness(90%) }
+
+/* Medium */
+.button.button-medium {
+  color: #000000;
+  background-color: #E8F3EC }
+.button.button-medium:hover,
+.button.button-medium:focus {
+  filter: brightness(90%) }
+
+/* Pinterest */
+.button.button-pinterest {
+  color: #FFFFFF;
+  background-color: #E60023 }
+.button.button-pinterest:hover,
+.button.button-pinterest:focus {
+  filter: brightness(90%) }
+
+/* Reddit */
+.button.button-reddit {
+  color: #FFFFFF;
+  background-color: #FF4500 }
+.button.button-reddit:hover,
+.button.button-reddit:focus {
+  filter: brightness(90%) }
+
+/* Snapchat */
+.button.button-snapchat {
+  color: #000000;
+  background-color: #fffc00 }
+.button.button-snapchat:hover,
+.button.button-snapchat:focus {
+  filter: brightness(90%) }
+
+/* SoundCloud */
+.button.button-soundcloud {
+  color: #FFFFFF;
+  background-color: #ff5500 }
+.button.button-soundcloud:hover,
+.button.button-soundcloud:focus {
+  filter: brightness(90%) }
+
+/* Spectrum */
+.button.button-spectrum {
+  color: #FFFFFF;
+  background-color: #7b16ff }
+.button.button-spectrum:hover,
+.button.button-spectrum:focus {
+  filter: brightness(90%) }
+
+/* Spotify */
+.button.button-spotify {
+  color: #FFFFFF;
+  background-color: #191414 }
+.button.button-spotify:hover,
+.button.button-spotify:focus {
+  filter: brightness(90%) }
+
+/* Steam */
+.button.button-steam {
+  color: #FFFFFF;
+  background-color: #171a21 }
+.button.button-steam:hover,
+.button.button-steam:focus {
+  filter: brightness(90%) }
+  
+/* Telegram */
+.button.button-telegram {
+  color: #FFFFFF;
+  background-color: #0088cc }
+.button.button-telegram:hover,
+.button.button-telegram:focus {
+  filter: brightness(90%) }
+
+/* Tiny Fund */
+.button.button-tinyfund {
+  color: #000000;
+  background-color: #FFFFFF }
+.button.button-tinyfund:hover,
+.button.button-tinyfund:focus {
+  filter: brightness(90%) }
+
+/* Tumblr */
+.button.button-tumblr {
+  color: #FFFFFF;
+  background-color: #131313 }
+.button.button-tumblr:hover,
+.button.button-tumblr:focus {
+  filter: brightness(90%) }
+
+/* Twitch */
+.button.button-twitch {
+  color: #FFFFFF;
+  background-color: #9146ff }
+.button.button-twitch:hover,
+.button.button-twitch:focus {
+  filter: brightness(90%) }
+
+/* Twitter */
+.button.button-twitter {
+  color: #FFFFFF;
+  background-color: #1D9BF0 }
+.button.button-twitter:hover,
+.button.button-twitter:focus {
+  filter: brightness(90%) }
+
+/* YouTube */
+.button.button-youtube {
+  color: #FFFFFF;
+  background-color: #FF0000 }
+.button.button-youtube:hover,
+.button.button-youtube:focus {
+  filter: brightness(90%) }
+
+/* Unsplash */
+.button.button-unsplash {
+  color: #000000;
+  background-color: #FFFFFF }
+.button.button-unsplash:hover,
+.button.button-unsplash:focus {
+  filter: brightness(90%) }
+
+/* LittleLink */
+.button.button-littlelink {
+  color: #FFFFFF;
+  background-color: #0085FF }
+.button.button-littlelink:hover,
+.button.button-littlelink:focus {
+  filter: brightness(90%) }
+
+/* Signal */
+.button.button-signal {
+  color: #FFFFFF;
+  background-color: #3A76F0 }
+.button.button-signal:hover,
+.button.button-signal:focus {
+  filter: brightness(90%) }
+
+/* Keybase */
+.button.button-keybase {
+  color: #FFFFFF;
+  background-color: #33A0FF }
+.button.button-keybase:hover,
+.button.button-keybase:focus {
+  filter: brightness(90%) }
+
+/* Protonmail */
+.button.button-protonmail {
+  color: #FFFFFF;
+  background-color: #505061 }
+.button.button-protonmail:hover,
+.button.button-protonmail:focus {
+  filter: brightness(90%) }
+
+/* DigitalOcean */
+.button.button-digitalocean {
+  color: #FFFFFF;
+  background-color: #0069ff }
+.button.button-digitalocean:hover,
+.button.button-digitalocean:focus {
+  filter: brightness(90%) }
+
+/* Warcraft */
+.button.button-warcraft {
+  color: #FFFFFF;
+  background-color: #2B374C }
+.button.button-warcraft:hover,
+.button.button-warcraft:focus {
+  filter: brightness(90%) }
+
+/* Imgur Melee */
+.button.button-melee {
+  color: #000000;
+  background-image: linear-gradient(-135deg,#DBFE14,#B8FE41,#92FC70)}
+.button.button-melee:hover,
+.button.button-melee:focus {
+  filter: brightness(90%) }
+
+/* Roll20 */
+.button.button-roll20 {
+  color: #FFFFFF;
+  background-color: #ec008c }
+.button.button-roll20:hover,
+.button.button-roll20:focus {
+  filter: brightness(90%) }
+
+/* 3DMark */
+.button.button-3dmark {
+  color: #FFFFFF;
+  background-color: #FD7D16 }
+.button.button-3dmark:hover,
+.button.button-3dmark:focus {
+  filter: brightness(90%) }
+
+/* Nintendo */
+.button.button-nintendo {
+  color: #FFFFFF;
+  background-color: #E60012 }
+.button.button-nintendo:hover,
+.button.button-nintendo:focus {
+  filter: brightness(90%) }
+
+/* Blizzard Battle.net */
+.button.button-blizzard {
+  color: #FFFFFF;
+  background-color: #148EFF }
+.button.button-blizzard:hover,
+.button.button-blizzard:focus {
+  filter: brightness(90%) }
+
+/* J!NX */
+.button.button-jinx {
+  color: #000000;
+  background-color: #02e7df }
+.button.button-jinx:hover,
+.button.button-jinx:focus {
+  filter: brightness(90%) }
+
+/* Robinhood */
+.button.button-robinhood {
+  color: #000000;
+  background-color: #00C805 }
+.button.button-robinhood:hover,
+.button.button-robinhood:focus {
+  filter: brightness(90%) }
+
+/* Google Play Games */
+.button.button-play {
+  color: #000000;
+  background-color: #00E26B }
+.button.button-play:hover,
+.button.button-play:focus {
+  filter: brightness(90%) }
+
+/* Wealthfront */
+.button.button-wealthfront {
+  color: #FFFFFF;
+  background-color: #4840bb }
+.button.button-wealthfront:hover,
+.button.button-wealthfront:focus {
+  filter: brightness(90%) }
+
+/* Notion */
+.button.button-notion {
+  color: #000000;
+  background-color: #FFFFFF }
+.button.button-notion:hover,
+.button.button-notion:focus {
+  filter: brightness(90%) }
+
+/* Aspiration */
+.button.button-aspiration {
+  color: #FFFFFF;
+  background-color: #1165bf }
+.button.button-aspiration:hover,
+.button.button-aspiration:focus {
+  filter: brightness(90%) }
+
+/* Ollie */
+.button.button-ad {
+  color: #ffffff;
+  background-color: #ff1800 }
+.button.button-ad:hover,
+.button.button-ad:focus {
+  filter: brightness(100%) }
+
+/* Investments */
+
+/* NYCE */
+.button.button-nyce {
+  color: #000000;
+  background-color: #00FFC5}
+.button.button-nyce:hover,
+.button.button-nyce:focus {
+  filter: brightness(90%) }
+
+/* Elemeno Health */
+.button.button-elemeno {
+  color: #000000;
+  background-color: #FF8B00}
+.button.button-elemeno:hover,
+.button.button-elemeno:focus {
+  filter: brightness(90%) }
+
+/* GroGuru */
+.button.button-groguru {
+  color: #FFFFFF;
+  background-color: #1e455f}
+.button.button-groguru:hover,
+.button.button-groguru:focus {
+  filter: brightness(90%) }
+
+/* Insense */
+.button.button-insense {
+  color: #FFFFFF;
+  background-color: #4e42e4}
+.button.button-insense:hover,
+.button.button-insense:focus {
+  filter: brightness(90%) }
+
+/* Fluz App Inc. */
+.button.button-fluz {
+  color: #000000;
+  background-color: #FF5050}
+.button.button-fluz:hover,
+.button.button-fluz:focus {
+  filter: brightness(90%) }
+
+/* Zephyr Aerospace */
+.button.button-zephyr {
+  color: #000000;
+  background-color: #FFFFFF}
+.button.button-zephyr:hover,
+.button.button-zephyr:focus {
+  filter: brightness(90%) }
+
+/* Republic Note */
+.button.button-republic {
+  color: #FFFFFF;
+  background-color: #0049ff}
+.button.button-republic:hover,
+.button.button-republic:focus {
+  filter: brightness(90%) }
+
+/* WIP */
+.button.button-wip {
+  color: #000000;
+  background-color: #F9DB00}
+.button.button-wip:hover,
+.button.button-wip:focus {
+  filter: brightness(90%) }
+
+/* Trim */
+.button.button-trim {
+  color: #FFFFFF;
+  background-color: #5264CC}
+.button.button-trim:hover,
+.button.button-trim:focus {
+  filter: brightness(90%) }
+
+/* BondWay */
+.button.button-bondway {
+  color: #165BC1;
+  background-color: #c0c7d1}
+.button.button-bondway:hover,
+.button.button-bondway:focus {
+  filter: brightness(90%) }
+
+/* Cura */
+.button.button-cura {
+  color: #000000;
+  background-color: #F3F8FF}
+.button.button-cura:hover,
+.button.button-cura:focus {
+  filter: brightness(90%) }
+
+/* FAA */
+.button.button-faa {
+  color: #FFFFFF;
+  background-color: #091F62}
+.button.button-faa:hover,
+.button.button-faa:focus {
+  filter: brightness(90%) }
+
+/* FAA Alt */
+.button.button-faa-alt {
+  color: #FFFFFF
+  ;
+  background-color: #006db5}
+.button.button-faa-alt:hover,
+.button.button-faa-alt:focus {
+  filter: brightness(90%) }
+
+  

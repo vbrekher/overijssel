@@ -1,0 +1,203 @@
+{
+  "project": {
+    "src_path": "src",
+    "build_path": "dist",
+    "root_file_name": "index.html"
+  },
+  "links_replacements": [
+    {
+      "target": "\"знакомства-в-бельгии.html\"",
+      "replace_by": "\"/знакомства-в-бельгии\""
+    },
+    {
+      "target": "\"знакомства-в-германии.html\"",
+      "replace_by": "\"/знакомства-в-германии\""
+    },
+    {
+      "target": "\"знакомства-в-дании.html\"",
+      "replace_by": "\"/знакомства-в-дании\""
+    },
+    {
+      "target": "\"index.html\"",
+      "replace_by": "\"/\""
+    },
+    {
+      "target": "\"знакомства-в-норвегии.html\"",
+      "replace_by": "\"/знакомства-в-норвегии\""
+    },
+    {
+      "target": "\"знакомства-во-франции.html\"",
+      "replace_by": "\"/знакомства-во-франции\""
+    },
+    {
+      "target": "\"знакомства-в-финляндии.html\"",
+      "replace_by": "\"/знакомства-в-финляндии\""
+    },
+    {
+      "target": "\"знакомства-в-европе.html\"",
+      "replace_by": "\"/знакомства-в-европе\""
+    },
+    {
+      "target": "\"знакомства-для-геев-и-лесбиянок-в-нидерландах.html\"",
+      "replace_by": "\"/знакомства-для-геев-и-лесбиянок-в-нидерландах\""
+    },
+    {
+      "target": "\"знакомства-для-секса.html\"",
+      "replace_by": "\"/знакомства-для-секса\""
+    },
+    {
+      "target": "\"top.html\"",
+      "replace_by": "\"/top\""
+    },
+
+    {
+      "target": "\"advertise.html\"",
+      "replace_by": "\"/advertise\""
+    },
+    {
+      "target": "\"credits.html\"",
+      "replace_by": "\"/credits\""
+    },    
+    {
+      "target": "\"ukrainians.html\"",
+      "replace_by": "\"/ukrainians\""
+    },
+    {
+      "target": "\"знакомства-в-швеции.html\"",
+      "replace_by": "\"/знакомства-в-швеции\""
+    }
+      
+  ],
+  "file_links_replacement": [
+    {
+      "target": "\"css/",
+      "replace_by": "\"../css/"
+    },
+    {
+      "target": "images/",
+      "replace_by": "../images/"
+    },
+    {
+      "target": "icons/",
+      "replace_by": "../icons/"
+    },
+    {
+      "target": "\"js/",
+      "replace_by": "\"../js/"
+    }
+  ],
+  "transforms": [
+    {
+      "name": "знакомства-в-бельгии",
+      "filepath": "знакомства-в-бельгии.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "знакомства-в-германии",
+      "filepath": "знакомства-в-германии.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "знакомства-во-франции",
+      "filepath": "знакомства-во-франции.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },   
+    {
+      "name": "ukrainians",
+      "filepath": "ukrainians.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "знакомства-в-дании",
+      "filepath": "знакомства-в-дании.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "index",
+      "filepath": "index.html",
+      "move_to_subfolder": false,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": false
+    },
+    {
+      "name": "знакомства-в-норвегии",
+      "filepath": "знакомства-в-норвегии.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "знакомства-для-геев-и-лесбиянок-в-нидерландах",
+      "filepath": "знакомства-для-геев-и-лесбиянок-в-нидерландах.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "знакомства-для-секса",
+      "filepath": "знакомства-для-секса.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "advertise",
+      "filepath": "advertise.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "credits",
+      "filepath": "credits.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "privacy",
+      "filepath": "privacy.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "top",
+      "filepath": "top.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "знакомства-в-европе",
+      "filepath": "знакомства-в-европе.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "знакомства-в-финляндии",
+      "filepath": "знакомства-в-финляндии.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    },
+    {
+      "name": "знакомства-в-швеции",
+      "filepath": "знакомства-в-швеции.html",
+      "move_to_subfolder": true,
+      "apply_links_replacements": true,
+      "apply_file_links_replacements": true
+    }
+  ]
+}
