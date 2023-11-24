@@ -53,11 +53,7 @@
     {
       "target": "\"advertise.html\"",
       "replace_by": "\"/advertise\""
-    },
-    {
-      "target": "\"credits.html\"",
-      "replace_by": "\"/credits\""
-    },    
+    },   
     {
       "target": "\"ukrainians.html\"",
       "replace_by": "\"/ukrainians\""
@@ -153,13 +149,6 @@
     {
       "name": "advertise",
       "filepath": "advertise.html",
-      "move_to_subfolder": true,
-      "apply_links_replacements": true,
-      "apply_file_links_replacements": true
-    },
-    {
-      "name": "credits",
-      "filepath": "credits.html",
       "move_to_subfolder": true,
       "apply_links_replacements": true,
       "apply_file_links_replacements": true
